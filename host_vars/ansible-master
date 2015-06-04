@@ -1,0 +1,14 @@
+---
+plugins:
+  - 'ldap'
+  - 'github'
+  - 'translation'
+  - 'preSCMbuildstep'
+  - 'ansible'
+  - 'ssh-credentials'
+port: 8081
+prefix: '/build'
+email:
+  smtp_host: 'mailhost.nike.com'
+  smtp_ssl: 'false'
+  default_email_suffix: '@nike.com'

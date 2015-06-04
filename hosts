@@ -1,0 +1,7 @@
+[clients]
+ansible-client
+ansible-master
+[web]
+ansible-client
+[jenkins]
+ansible-master
