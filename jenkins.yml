@@ -3,3 +3,5 @@
   hosts: jenkins
   roles:
     - jenkins
+# NOTE: This playbook only works for Ubuntu servers. And will install jenkins on the 8080 port. It installs
+# as with the user jenkins. Keep that in mind as well for permissions for build objects. 
