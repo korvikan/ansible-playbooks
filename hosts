@@ -5,3 +5,5 @@ ansible-master
 ansible-client
 [jenkins]
 ansible-master
+[wordpress-server]
+webserver
